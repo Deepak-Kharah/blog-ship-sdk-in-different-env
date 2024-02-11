@@ -18,6 +18,6 @@ export class SimpleStarWarsSdk {
   static async getCharacter(id) {
     return fetch(`https://swapi.dev/api/people/${id}`)
       .then((response) => response.json())
-      .then((data) => ({})); //! <== update this line to return the data: .then((data) => data)
+      .then((data) => data);
   }
 }

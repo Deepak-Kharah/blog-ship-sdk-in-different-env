@@ -12,7 +12,7 @@
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "simple-star-wars-sdk": "file:simple-star-wars-sdk-0.0.1-alpha.0.tgz"
+    "simple-star-wars-sdk": "file:../simple-star-wars-sdk"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
