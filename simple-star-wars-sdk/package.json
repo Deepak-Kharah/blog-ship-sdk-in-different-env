@@ -5,6 +5,7 @@
   "source": "src/index.js",
   "main": "dist/index.js",
   "scripts": {
+    "prepare": "npm run build",
     "build": "parcel build",
     "test": "npm run test",
     "dev": "parcel watch"
