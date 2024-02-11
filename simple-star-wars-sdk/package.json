@@ -1,0 +1,17 @@
+{
+  "name": "simple-star-wars-sdk",
+  "version": "0.0.1-alpha.0",
+  "description": "",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build",
+    "test": "npm run test",
+    "dev": "parcel watch"
+  },
+  "author": "Deepak Kharah",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
