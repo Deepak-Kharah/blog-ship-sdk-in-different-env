@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.1.0",
+    "next": "14.2.10",
     "react": "^18",
     "react-dom": "^18",
     "simple-star-wars-sdk": "file:simple-star-wars-sdk-0.0.1-alpha.0.tgz"
