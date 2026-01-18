@@ -12,6 +12,6 @@
   "author": "Deepak Kharah",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.16.3"
   }
 }
