@@ -4,9 +4,9 @@ export class SimpleStarWarsSdk {
    * @returns {Promise<Array>} A promise that resolves to an array of character objects.
    */
   static async getAllCharacters() {
-    return fetch("https://swapi.dev/api/people")
-      .then((response) => response.json())
-      .then((data) => data.results);
+    return fetch("https://swapi.info/api/people").then((response) =>
+      response.json()
+    );
   }
 
   /**
@@ -16,7 +16,7 @@ export class SimpleStarWarsSdk {
    * @returns {Promise<Object>} A promise that resolves to the character data.
    */
   static async getCharacter(id) {
-    return fetch(`https://swapi.dev/api/people/${id}`)
+    return fetch(`https://swapi.info/api/people/${id}`)
       .then((response) => response.json())
       .then((data) => ({})); //! <== update this line to return the data: .then((data) => data)
   }
